@@ -1,0 +1,105 @@
+<!-- me indica la version de html que estamos utilizando (version 5) -->
+<!DOCTYPE html>
+<!-- html me indica que aqui comienza el html -->
+<!--  atributos=valor del atributo -->
+<html lang="es">
+<!-- cabecera que me indica las directivas para el navegador -->    
+<head>
+    <!-- etiquetas meta -->
+    <!-- utilize el conjunto de caracteres UTF-8 (me permite ñ, acentos ...) -->
+    <meta charset="UTF-8">
+    <!-- utilizar la compatibilidad con IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport es lo que estoy viendo en el navegador -->
+    <!-- el ancho del viewport va a considerar el ancho del dispositivo -->
+    <!-- la escala inicial va a ser del 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <!-- Etiquetas de titulos -->
+    <h1>Titulo principal</h1> <!-- Debe existir uno solo por html -->
+    <h2>Sub Titulo 2</h2>
+    <h3>Sub Titulo 3</h3>
+    <h4>Sub Titulo 4</h4>
+    <h5>Sub Titulo 5</h5>
+    <h6>Sub Titulo 6</h6>
+    <!-- Parrafos -->
+    <!-- Etiquetas de bloque -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum modi vel dolore maxime, distinctio, incidunt molestias rem libero alias cum culpa deleniti accusamus iusto aperiam obcaecati. Accusamus possimus sapiente placeat?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam fugiat, nesciunt harum excepturi inventore praesentium placeat rem est quis quia, neque molestiae enim facere aut amet corporis reiciendis, beatae non?</p>
+    <div>Hola soy un div</div>
+    <div>Yo soy otro div</div>
+    <!-- Etiquetas de linea -->
+    <span>Hola</span>
+    <span>Que tal</span>
+    <span>Bien</span>
+    <!-- Etiquetas dentro de otras etiquetas -->
+    <div>
+        <p>Hola <b>que</b> tal. <i>Cómo</i> estas?. <div>Bien</div></p>
+    </div>
+    <!-- Listas -->
+    <!-- Desordenadas -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <!-- Ordenadas -->
+    <ol>
+        <li>JS</li>
+        <li>JAVA</li>
+        <li>PHP</li>
+        <li>Python</li>
+    </ol>
+    <!-- Tablas -->
+    <table border="1">
+        <thead> <!-- cabecera -->
+            <tr> <!-- filas -->
+                <th>Nº</th> <!-- Columnas -->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody> <!-- cuerpo -->
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>Gonzalez</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ana</td>
+                <td>Perez</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- pie -->
+            <tr>
+                <td colspan="3">TOTALES</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Imágenes -->
+    <img src="https://img.flaticon.com/icons/png/512/174/174854.png" alt="Logo HTML" width="200" height="200">
+    <!-- Sonidos -->
+    <audio controls
+    src="https://www.w3schools.com/html/horse.ogg" autoplay>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    <!-- Videos -->
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/rbuYtrNUxg4" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <!-- Formularios -->
+
+    
+</body>
+<!-- /html me indica que aqui termina el html -->
+</html>
